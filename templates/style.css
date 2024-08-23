@@ -1,0 +1,57 @@
+html,
+body {
+    text-size-adjust: none;
+    -webkit-text-size-adjust: none;
+    -moz-text-size-adjust: none;
+    -ms-text-size-adjust: none;
+	background-color: #fff;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0px;
+    margin: 0;
+    word-break: break-word;
+	scroll-behavior: smooth;
+    font-size: 14px;
+}
+
+table, td, tr{
+    border:1px solid lightgray;
+    border-collapse:collapse;
+    text-align:center;
+}
+
+thead{
+    font-weight:600;
+}
+
+td{
+    padding:5px 10px;
+}
+
+header, main, footer{
+    padding:20px 50px;
+    margin:auto;
+    width:100%;
+    box-sizing:border-box;
+}
+@media(max-width:768px){
+    header, main, footer{
+      padding:10x 10px;
+  }
+}
+
+.payment-status{
+    font-size:18px;
+}
+
+.payment-ok{
+    color:green;
+}
+
+.payment-error{
+    color:red;
+}
+
+.pointer{
+    cursor:pointer;
+}
