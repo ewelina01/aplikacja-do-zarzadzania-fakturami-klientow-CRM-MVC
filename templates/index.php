@@ -1,5 +1,5 @@
 ﻿<?php
-    
+
 ?>
 
 <!DOCTYPE html>
@@ -9,16 +9,16 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
+
     <link rel="icon" href="https://ewelinaziobro.pl/logo.png">
-    
+
     <title>Aplikacja klienta</title>
 
 	<meta name="description" content="">
 	<meta name="keywords" content="">
 
-    <link rel="stylesheet" href="/templates/style.css" type="text/css">
-    
+    <link rel="stylesheet" href="/assets/style.css" type="text/css">
+
 
 </head>
 
@@ -31,11 +31,11 @@
     </header>
 
     <main>
-    
+
         <h1>Aplikacja do faktur</h1>
-        
+
         <h2>Klienci</h2>
-        
+
         <table>
             <thead>
               <tr>
@@ -46,8 +46,8 @@
               </tr>
             </thead>
             <tbody>
-            <?php 
-            
+            <?php
+
                 $i=1;
                 foreach($customers AS $customer) : ?>
               <tr>
@@ -56,17 +56,17 @@
                   <td><?= $customer['bank_account_number'] ?></td>
                   <td><?= $customer['NIP'] ?></td>
               </tr>
-              <?php 
+              <?php
                 $i++;
-                endforeach; 
+                endforeach;
               ?>
             </tbody>
         </table>
 
 
     </main>
-    
+
     <footer>
     </footer>
-    
+
 </body>
